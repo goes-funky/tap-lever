@@ -130,6 +130,12 @@
         "null",
         "number"
       ]
+    },
+    "completedAt": {
+      "type": [
+        "null",
+        "number"
+      ]
     }
   }
 }
