@@ -115,27 +115,31 @@
     },
     "createdAt": {
       "type": [
-        "null",
-        "number"
-      ]
+              "string",
+              "null"
+            ],
+            "format": "date-time"
     },
     "updatedAt": {
       "type": [
-        "null",
-        "number"
-      ]
+              "string",
+              "null"
+            ],
+            "format": "date-time"
     },
     "deletedAt": {
       "type": [
-        "null",
-        "number"
-      ]
+              "string",
+              "null"
+            ],
+            "format": "date-time"
     },
     "completedAt": {
       "type": [
-        "null",
-        "number"
-      ]
+              "string",
+              "null"
+            ],
+            "format": "date-time"
     }
   }
 }

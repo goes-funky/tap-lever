@@ -42,9 +42,10 @@
     },
     "createdAt": {
       "type": [
-        "null",
-        "number"
-      ]
+              "string",
+              "null"
+            ],
+            "format": "date-time"
     },
     "phone": {
       "type": [
@@ -198,14 +199,16 @@
           "createdAt": {
             "type": [
               "null",
-              "number"
-            ]
+              "string"
+            ],
+            "format": "date-time"
           },
           "completedAt": {
             "type": [
               "null",
-              "number"
-            ]
+              "string"
+            ],
+            "format": "date-time"
           },
           "type": {
             "type": [
@@ -222,8 +225,9 @@
         "archivedAt": {
           "type": [
             "null",
-            "number"
-          ]
+            "string"
+          ],
+          "format": "date-time"
         },
         "reason": {
           "type": [
